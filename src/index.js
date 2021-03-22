@@ -9,6 +9,8 @@ const cities = [
   { name: "Miami", population: "1.2m", attraction: "Beach" },
 ];
 
+// METHOD 1: Inject data into html
+
 // Roadmap
 
 // select the card elements
@@ -39,12 +41,16 @@ const cities = [
 // }
 
 
+// METHOD 2: Creating card templates
 
+// removes cards from html
 
 const cards = document.querySelectorAll(".card")
 for(i = 0; i < cards.length; i++) {
   cards[i].remove()
 }
+
+// creates a card
 
 function createCardFromCity(city) {
   const card = document.createElement("div");
@@ -56,6 +62,8 @@ function createCardFromCity(city) {
   `
   return card
 }
+
+// appends created cards to cards-container for each object in cities array
 
 const cardsContainer = document.getElementsByClassName("cards-container")[0]
 
