@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1535581652167-3a26c90bbf86?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card {
+    place-self: center;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    background: white;
+    box-shadow: 1px 5px 5px;
+    font-size: large;
+}
+
+.city-searcher-title{ 
+    font-weight: bold;
+    font-size: 20em;
+    color: green;
+}
