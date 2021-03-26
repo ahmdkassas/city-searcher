@@ -1,5 +1,5 @@
 const cities = [
-  { name: "New York", population: "8.4m", attraction: "Statue of Liberty", img: "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" },
+  { name: "New York", population: "8.4m", attraction: "Statue of Liberty" },
   { name: "San Fransisco", population: "874k", attraction: "Golden Gate Bridge" },
   { name: "Seattle", population: "724k", attraction: "Space Needle" },
   { name: "Houston", population: "2.3m", attraction: "Space Center" },
@@ -7,6 +7,10 @@ const cities = [
   { name: "Atlanta", population: "488k", attraction: "World of Coca-Cola" },
   { name: "Baltimore", population: "856k", attraction: "Orioles" },
   { name: "Miami", population: "1.2m", attraction: "Beach" },
+  { name: "Nashville", population: "670k", attraction: "Country Music HoF" },
+  { name: "Denver", population: "727k", attraction: "Coors Field" },
+  { name: "Boston", population: "692k", attraction: "Fenway Park" },
+  { name: "Las Vegas", population: "651k", attraction: "Stratosphere" },
 ];
 
 // METHOD 1: Inject data into html

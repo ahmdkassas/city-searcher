@@ -1,8 +1,19 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     text-align: center;
+}
+
+.background-image {
     background-image: url("https://images.unsplash.com/photo-1535581652167-3a26c90bbf86?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
 }
 
 .cards-container {
@@ -26,6 +37,7 @@ body {
     background: white;
     box-shadow: 1px 5px 5px;
     font-size: large;
+    padding: 5px;
 }
 
 .city-searcher-title{ 
