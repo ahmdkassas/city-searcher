@@ -44,6 +44,12 @@ const cities = [
 //   }
 // }
 
+const btn = document.getElementsByClassName("search-button");
+function alertname(){alert("hiiiii")
+}
+undefined
+btn.addEventListener("click", alertname)
+
 
 // METHOD 2: Creating card templates
 
